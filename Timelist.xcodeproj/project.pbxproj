@@ -10,9 +10,22 @@
 		14C2EC4B2D8D54B10017525D /* Timelist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timelist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		14CFA5332D9694D7004BFBC2 /* Exceptions for "Timelist" folder in "Timelist" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 14C2EC4A2D8D54B10017525D /* Timelist */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		14C2EC4D2D8D54B10017525D /* Timelist */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				14CFA5332D9694D7004BFBC2 /* Exceptions for "Timelist" folder in "Timelist" target */,
+			);
 			path = Timelist;
 			sourceTree = "<group>";
 		};
@@ -255,11 +268,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Timelist/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Timelist/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Timelist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -280,11 +297,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Timelist/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Timelist/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Timelist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
